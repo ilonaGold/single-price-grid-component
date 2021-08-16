@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
-
 /* Global Styles */
 
 * {
@@ -11,7 +10,6 @@
 
 body {
     font-family: 'Karla', sans-serif;
-    font-size: 1rem;
     background-color: var(--light-gray);
     color: var(--white);
 }
@@ -25,7 +23,7 @@ body {
     --light-gray: hsl(204, 43%, 93%);
     --grayish-blue: hsl(218, 22%, 67%);
     --white: hsl(0, 0%, 100%);
-    --blue: hsl(228, 45%, 44%); 
+    --black: hsl(0, 0%, 0%);
 }
 
 
@@ -43,15 +41,15 @@ body {
 }
 
 .service-guarantee {
-    font-size: 15px;
+    font-size: .9375rem;
     font-weight: 700;
     color: var(--bright-yellow);
-    line-height: 23px;
+    line-height: 1.4375rem;
 }
 
 p {
-    font-size: 13px;
-    line-height: 25px;
+    font-size: .8125rem;
+    line-height: 1.5625rem;
 }
 
 .service-description {
@@ -59,12 +57,12 @@ p {
 }
 
 .subscription-price {
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 700;
 }
 
 span {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -74,7 +72,7 @@ span {
 }
 
 .subscription-details {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .features-info {
@@ -86,45 +84,42 @@ span {
 
 .grid-container {
     width: 83%;
-    margin: 4.375em 2em 4.6875em;
+    margin: 4.3em 2em 4.68em;
 }
 
 .service {
     background-color: var(--white);
     border-radius: 7px 7px 0 0;
-    padding: 35px 23px;
+    padding: 2.1em 1.43em;
 }
 
-.service-heading {
-    margin-bottom: 22px;
-}
-
+.service-heading,
 .service-guarantee {
-    margin-bottom: 13px;
+    margin-bottom: 1.2em;
 }
 
 .subscription {
     background-color: var(--cyan);
     border-bottom: 3px solid var(--cyan);
-    padding: 27px 23px 20px;
+    padding: 1.68em 1.43em 1.25em;
 }
 
 .subscription-heading {
-    margin-bottom: 18px;
+    margin-bottom: 1.12em;
 }
 
 .subscription-price {
-    margin-bottom: 5px;
+    margin-bottom: .31em;
 }
 
 span {
-    margin-left: 12px;
+    margin-left: .75em;
     opacity: .4;
     position: absolute;
 }
 
 .subscription-details {
-    margin-bottom: 32px; 
+    margin-bottom: 2em; 
 }
 
 .btn {
@@ -134,7 +129,7 @@ span {
     color: var(--white);
     font-weight: 700;
     text-align: center;
-    padding: 15px; 
+    padding: .9em; 
     border: none;
     border-radius: 7px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
@@ -142,27 +137,28 @@ span {
 
 .features {
     background-color: var(--cyan);
-    opacity: .9;
-    padding: 23px 23px 28px;
+    opacity: .8;
+    padding: 1.43em 1.43em 1.75em;
     border-radius: 0 0 7px 7px;
 }
 
 .features-heading {
-    margin-bottom: 10px;
+    margin-bottom: .62em;
 }
 
 .features-info {
-    line-height: 20px;
+    line-height: 1.25rem;
 }
 
 /* Footer */
 
 .attribution { 
-    font-size: 11px; 
+    font-size: .68rem;
     text-align: center; 
+    color: var(--black);
 }
 
 .attribution a {
-    color: var(--blue);
-}
+     color: hsl(228, 45%, 44%); 
+    }
 
