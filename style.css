@@ -12,7 +12,7 @@ body {
     font-family: 'Karla', sans-serif;
     background-color: var(--light-gray);
     color: var(--white);
-    width: 100%;
+    width: 100vw;
 }
 
 
@@ -89,6 +89,7 @@ span {
     width: 83%;
     max-width: 39.625em;
     margin: 4.3em 2em 4.68em;
+    border-radius: 7px;
 }
 
 .service {
@@ -155,6 +156,20 @@ span {
 
 /* Media Queries */
 
+@media (min-width: 481px) {
+    .service,
+    .subscription,
+    .features {
+        padding-left: 2.375em;
+    }
+}
+
+@media (min-width: 600px) {
+    .btn {
+        width: 15em;
+    }
+}
+
 @media (min-width: 768px) {
     .grid-container {
         display: grid;
@@ -162,11 +177,6 @@ span {
         grid-template-rows: 13.4rem 15rem;
         margin: 10em auto;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    }
-    .service,
-    .subscription,
-    .features {
-        padding-left: 2.375em;
     }
     .service {
         grid-column: 1/3;
